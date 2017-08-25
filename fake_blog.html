@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Jon Snow</title>
+	<meta name="description" content="This page is everything about Jon Snow.">
+
+	<!--calling a CSS Sheet here-->
+	<link rel="stylesheet" href="design.css">
+
+	<!--calling a js file here-->
+	<script src="logic.js"></script>
+</head>
+
+<body>
+<!--Jon Snow mini biography-->
+	<h1>Jon Snow: Bastard of Ned Stark</h1>
+
+	<div id="jon-portrait">
+		<img src="jon_snow.jpg" alt="Portrait of Jon Snow" height=200 width="300">
+	</div>
+
+	<div id="jon-titles">
+		<h5>Born of House Stark, first of his name, King in the North, King Beyond the Wall, Lord of Winterfell</h5>
+	</div>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend gravida lacus, in finibus massa suscipit luctus. Morbi gravida, tortor non convallis sollicitudin, sapien velit commodo magna, non lacinia quam leo nec lacus. Nam blandit commodo nisl ac laoreet. Sed eleifend, felis a iaculis semper, orci diam eleifend felis, eget mattis enim ante a ipsum. Phasellus tristique dui lacus, sit amet gravida ipsum viverra vel. Vestibulum diam turpis, pellentesque a posuere in, pharetra sit amet felis. Phasellus ultricies ligula turpis, sit amet pulvinar urna blandit ut. Nam efficitur risus vitae leo pellentesque vestibulum.</p>
+
+	<table>
+		<thead> <!--table head-->
+			<tr> <!--table row-->
+				<th>Titles</th><!--table column name-->
+				<th>Family</th>
+				<th>Aliases</th>
+			</tr>
+		</thead>
+
+		<tbody><!--table body-->
+			<tr>
+				<td>Undead</td>
+				<td>House Stark</td>
+				<td>Lord Snow</td>
+			</tr>
+
+			<tr>
+				<td>998th Lord Commander</td>
+				<td>House Targaryen</td>
+				<td>King Crow</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h4>Siblings</h4>
+	<ul>
+		<li>Sansa Stark</li>
+		<li>Arya Stark</li>
+		<li>Bran Stark</li>
+		<li>Rob Stark</li>
+		<li>Rickon Stark</li>
+	</ul>
+
+	<div id="hbo">
+		<a href="http://www.hbo.com/game-of-thrones">Learn more about Jon</a>
+	</div>
+
+	<!--Bend the Knee-->
+	<h3>Join as Bannermen to the One True King of the North</h3>
+
+	<!--What is your House Name-->
+	<p>
+		<label for="house_name">House Name</label>
+		<input type="text" id="house_name" name="house_name">
+	</p>
+
+	<!--How many men can you bring-->
+	<p>
+		<label for="amount_of_men">How much men can you promise for the army?</label>
+		<input type="number" id="amount_of_men" name="amount_of_men">
+	</p>
+
+	<!--Do you believe in White Walkers?-->
+	<p>Do you believe in the <span id="whitewalkers">White Walkers?</span></p>
+	<label for="yes">Yes</label>
+	<input type="radio" id="yes" name="declare_yes" value="yes">
+
+	<label for="no">No</label>
+	<input type="radio" id="no" name="gender" value="no">
+
+	<!--How do you feel about dragons-->
+	<p>How do you feel about dragons and Dothraki?</p>
+	<label for="all_for_it">All for it!</label>
+	<input type="checkbox" id="all_for_it" name="all_for_it" value="all_for_it">		
+
+	<p>
+		<label for="suspicious">A little suspicious.</label>
+		<input type="checkbox" id="suspicious" name="color" value="suspicious">		
+	</p>
+
+	<p>
+		<label for="outsiders">I dissaprove of outsiders.</label>
+		<input type="checkbox" id="outsiders" name="outsiders" value="outsiders">		
+	</p>
+
+	<p>
+		<label for="scared">I'm scared of them.</label>
+		<input type="checkbox" id="scared" name="scared" value="scared">
+	</p>
+
+	<input type="submit" value="Submit">
+
+</body>
+
+
+</html>

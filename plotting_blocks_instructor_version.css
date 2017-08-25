@@ -1,0 +1,55 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 950px;
+ background-color: silver;
+ margin: 0px auto;
+ /* change #1, padding on the overall wrapper*/
+ padding: 15px;
+}
+#header{
+ height: 150px;
+ background-color: green;
+ /* change #2, bottom margin*/
+ margin-bottom: 15px;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+ /*change #3, display inline block, because divs are naturally block elements*/
+ display: inline-block;
+ /*change #4, adding a vertical align to align the navigation and maincontent elements vertically.*/
+ vertical-align: top;
+ /*change #5, adding a right margin to the navigation*/
+margin-right: 25px;
+}
+#main_content{
+ height: 400px;
+ width: 700px;
+ background-color: red;
+  /*change #3, display inline block, because divs are naturally block elements*/
+ display: inline-block;
+ /* change #7, there is a slight padding on the red maincontent block, so adding that.*/
+ padding: 15px;
+}
+.subcontents{
+ height: 200px;
+ width: 210px;
+ background-color: yellow;
+ /*change #6, changing the subcontent yellow blocks to inline-blocks*/
+display: inline-block;
+/*change #8, there is a margin-right on the yellow boxes*/
+margin-right: 10px;
+
+}
+#advertisement{
+ height: 120px;
+ width: 660px;
+ background-color: purple;
+ /*change #9, there is a margin-top on the purple box*/
+ margin-top: 15px;
+}
